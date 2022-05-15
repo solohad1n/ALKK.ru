@@ -5,7 +5,6 @@
       <TagH className="hero__title" type="h1"> Продвижение сайтов </TagH>
     </section>
     <Calculator/>
-    <Dropdown/>
   </main>
 </template>
 

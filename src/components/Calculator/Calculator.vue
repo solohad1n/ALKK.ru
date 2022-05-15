@@ -26,7 +26,7 @@
 		</div>
 		<div class="container">
 				<TagH className="calculator__title" type="h3">План продвижения на 3 месяца</TagH>
-				<PromoteList />
+				<!-- <PromoteList /> -->
 		</div>
 	</section>
 </template>
@@ -37,9 +37,9 @@ import Dropdown from "../Dropdown/Dropdown.vue";
 import Checkbox from "../Inputs/Checkbox.vue";
 import Slider from "../Inputs/Slider.vue";
 import Button from '../Buttons/Buttons.vue';
-import PromoteList from './PromoteList.vue';
+// import PromoteList from './PromoteList.vue';
 export default {
-	components: { TagH, Dropdown, Checkbox, Slider,Button,PromoteList },
+	components: { TagH, Dropdown, Checkbox, Slider,Button },
 	data() {
 		return {
 			openDropdownIndex: null,
@@ -68,9 +68,9 @@ export default {
 				{
 					label: "Тематика",
 					items: [
-						"Аида",
-						"Сергей",
-						"Марлен",
+						"Ааааааа",
+						"Сссссссссс",
+						"Ммммммммммм",
 						"Название Четыре",
 						"Название Пять",
 					],
