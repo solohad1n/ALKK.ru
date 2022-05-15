@@ -4,14 +4,18 @@
       <img class="hero__img" :src="heroImg" alt="Our Work Routine" />
       <TagH className="hero__title" type="h1"> Продвижение сайтов </TagH>
     </section>
+    <Calculator/>
+    <Dropdown/>
   </main>
 </template>
 
 <script>
 import TagH from '../components/TagH/TagH.vue'
 import heroImg from "@/assets/hero.jpg";
+import Calculator from '../components/Calculator/Calculator.vue';
+import Dropdown from '../components/Dropdown/Dropdown.vue';
 export default {
-  components: { TagH },
+  components: { TagH, Calculator, Dropdown },
   data() {
     return {
       heroImg,
