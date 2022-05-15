@@ -5,6 +5,7 @@
       <TagH className="hero__title" type="h1"> Продвижение сайтов </TagH>
     </section>
     <Calculator/>
+    <Rates/>
   </main>
 </template>
 
@@ -13,8 +14,9 @@ import TagH from '../components/TagH/TagH.vue'
 import heroImg from "@/assets/hero.jpg";
 import Calculator from '../components/Calculator/Calculator.vue';
 import Dropdown from '../components/Dropdown/Dropdown.vue';
+import Rates from '../components/Rates/Rates.vue';
 export default {
-  components: { TagH, Calculator, Dropdown },
+  components: { TagH, Calculator, Dropdown, Rates },
   data() {
     return {
       heroImg,
