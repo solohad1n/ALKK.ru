@@ -9,7 +9,7 @@ export default {
 	props: ["text", "className"],
 };
 </script>
-
+	
 <style>
 button {
 	box-sizing: border-box;
@@ -22,8 +22,8 @@ button {
 	line-height: 150%;
 	cursor: pointer;
 	transition: 0.2s;
-  border: none;
-  outline: none;
+	border: none;
+	outline: none;
 }
 button.btn-primary {
 	background: #ff0404;
@@ -46,10 +46,10 @@ button.btn-outlined:hover {
 }
 
 button.btn-light {
-  background: #FFFFFF;
-  color: #000000;
+	background: #FFFFFF;
+	color: #000000;
 }
 button.btn-light:hover {
-  color: #FF0404;
+	color: #FF0404;
 }
 </style>
