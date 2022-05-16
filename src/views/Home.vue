@@ -9,6 +9,8 @@
     <ApplyForm/>
     <Reviews/>
     <Tariffs/>
+    <Portfolio/>
+    <Footer/>
   </main>
 </template>
 
@@ -21,8 +23,10 @@ import Rates from '../components/Rates/Rates.vue';
 import ApplyForm from '../components/ApplyForm/ApplyForm.vue';
 import Reviews from '../components/Reviews/Reviews.vue';
 import Tariffs from '../components/Tariffs/Tariffs.vue';
+import Portfolio from '../components/Portfolio/Portfolio.vue';
+import Footer from '../components/Footer/Footer.vue';
 export default {
-  components: { TagH, Calculator, Dropdown, Rates, ApplyForm,Reviews, Tariffs },
+  components: { TagH, Calculator, Dropdown, Rates, ApplyForm,Reviews, Tariffs, Portfolio, Footer },
   data() {
     return {
       heroImg,
