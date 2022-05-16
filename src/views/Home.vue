@@ -8,6 +8,7 @@
     <Rates/>
     <ApplyForm/>
     <Reviews/>
+    <Tariffs/>
   </main>
 </template>
 
@@ -19,8 +20,9 @@ import Dropdown from '../components/Dropdown/Dropdown.vue';
 import Rates from '../components/Rates/Rates.vue';
 import ApplyForm from '../components/ApplyForm/ApplyForm.vue';
 import Reviews from '../components/Reviews/Reviews.vue';
+import Tariffs from '../components/Tariffs/Tariffs.vue';
 export default {
-  components: { TagH, Calculator, Dropdown, Rates, ApplyForm,Reviews },
+  components: { TagH, Calculator, Dropdown, Rates, ApplyForm,Reviews, Tariffs },
   data() {
     return {
       heroImg,
