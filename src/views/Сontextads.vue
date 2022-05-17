@@ -1,12 +1,11 @@
 <template>
   <main>
       <Subtitle/>
-      <TagH className="subtitle__title" type="h1"> Создание сайтов </TagH>
-      <Description/>
+      <TagH className="subtitle__title" type="h1"> Продвижение по позициям </TagH>
+      <Rates/>
       <ApplyForm/>
       <Reviews/>
       <Tariffs/>
-      <Rates/>
       <Portfolio/>
   </main>
 </template>
@@ -18,7 +17,7 @@ import Reviews from "../components/Reviews/Reviews.vue";
 import Portfolio from "../components/Portfolio/Portfolio.vue";
 import Tariffs from "../components/Tariffs/Tariffs.vue";
 import TagH from "../components/TagH/TagH.vue";
-import Description from '../components/Description/Description.vue';
+import Rates from '../components/Rates/Rates.vue';
 export default {
   components: {
     TagH,
@@ -27,12 +26,12 @@ export default {
     Tariffs,
     Portfolio,
     Subtitle,
-    Description,
+    Rates,
   },
 };
 </script>
 
-<style>
+<style scoped>
 .subtitle__title {
   font-family: Fira Sans Extra Condensed;
   font-style: normal;
@@ -45,5 +44,8 @@ export default {
   top: 25%;
   left: 0;
   width: 100%;
+}
+.rates {
+  margin: -5px;
 }
 </style>

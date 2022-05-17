@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import SiteCreating from '../views/SiteCreating.vue'
+import Contextads from '../views/Сontextads.vue'
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/site-creating',
     name: 'SiteCreating',
     component: SiteCreating,
+  },
+  {
+    path: '/context-ads',
+    name: 'contextads',
+    component: Contextads,
   },
 ]
 
