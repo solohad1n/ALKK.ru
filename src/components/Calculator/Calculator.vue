@@ -131,4 +131,20 @@ export default {
 .calculator__title {
 	margin-bottom: 35px;
 }
+@media (max-width: 756px){
+	.calculator__filter{
+		flex-direction: column;
+	}
+	.calculator__filter .dropdown{
+	width: 100%;
+	margin-bottom: 10px;
+	}
+	.calculator__checkbox{
+		align-self: baseline;
+	}
+	.calculator{
+		box-sizing:content-box;
+		max-width: 350px;
+	}
+}
 </style>

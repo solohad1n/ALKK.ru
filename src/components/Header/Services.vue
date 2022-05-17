@@ -60,4 +60,9 @@ export default {
   color: #ffffff;
   text-decoration: none;
 }
+@media (max-width: 756px){
+	.services{
+		display: none;
+	}
+}
 </style>

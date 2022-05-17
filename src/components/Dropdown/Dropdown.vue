@@ -80,4 +80,10 @@ li:hover {
 	background: #ffffff;
 	border-radius: 10px;
 }
+@media (max-width: 756px){
+	ul {
+		left: auto;
+		right: 0;
+	}
+}
 </style>

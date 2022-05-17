@@ -47,4 +47,9 @@ export default {
   text-underline-position: under;
 	color: #333333;
 }
+@media (max-width: 756px){
+	.contacts{
+		display: none;
+	}
+}
 </style>

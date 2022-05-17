@@ -53,4 +53,9 @@ export default {
   width: 100%;
   min-height: 200px;
 }
+@media (max-width: 756px){
+	.hero img{
+		min-height: 175px; 
+	}
+}
 </style>

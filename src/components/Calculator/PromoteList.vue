@@ -90,4 +90,16 @@ export default {
   background: #ff0404;
   border-radius: 50%;
 }
+@media (max-width: 756px) {
+  .promote__row {
+    flex-wrap: wrap;
+  }
+  .promote-item {
+    width: 100%;
+    padding-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid #f0edea;
+    margin-bottom: 30px;
+  }
+}
 </style>

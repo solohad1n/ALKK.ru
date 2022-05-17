@@ -47,4 +47,9 @@ export default {
 .nav__item:first-child .nav__link {
   margin-left: 0;
 }
+@media (max-width: 756px) {
+  .nav {
+    display: none;
+  }
+}
 </style>
