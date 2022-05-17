@@ -1,16 +1,21 @@
 <template>
-  <Header/>
-  <Home/>
+  <Header />
+  <router-view />
+  <Footer />
 </template>
 
 <script>
-import Header from './components/Header/Header.vue'
-import Home from './views/Home.vue'
-
+import Footer from './components/Footer/Footer.vue';
+import Header from "./components/Header/Header.vue";
+import Home from "./views/Home.vue";
 export default {
-  components: { Header, Home },
-  name: 'App',
-}
+  name: "App",
+  components: {
+    Header,
+    Home,
+    Footer,
+  },
+};
 </script>
 
 <style>
@@ -50,3 +55,4 @@ ul {
   padding-left: 0;
 }
 </style>
+
